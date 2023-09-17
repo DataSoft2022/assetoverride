@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include assetoverride *.css
+recursive-include assetoverride *.csv
+recursive-include assetoverride *.html
+recursive-include assetoverride *.ico
+recursive-include assetoverride *.js
+recursive-include assetoverride *.json
+recursive-include assetoverride *.md
+recursive-include assetoverride *.png
+recursive-include assetoverride *.py
+recursive-include assetoverride *.svg
+recursive-include assetoverride *.txt
+recursive-exclude assetoverride *.pyc
